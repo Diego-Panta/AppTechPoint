@@ -20,17 +20,17 @@ Aquí tienes la información convertida al formato de un archivo Markdown (`.md`
 
 ## 📱 Vistas de la aplicación
 
-* Vista del mapa de Chimbote
-<img width="717" height="1600" alt="image" src="https://github.com/user-attachments/assets/ddd9d31c-ff93-447f-9c05-373c7656b1c1" />
+* Vista del mapa de Chimbote  
+<img src="https://github.com/user-attachments/assets/ddd9d31c-ff93-447f-9c05-373c7656b1c1" width="30%" />
 
-* Vista de alerta de los puntos más cercanos
-<img width="717" height="1600" alt="image" src="https://github.com/user-attachments/assets/f2b1a0bd-a294-44ae-be59-301c0cb7978c" />
+* Vista de alerta de los puntos más cercanos  
+<img src="https://github.com/user-attachments/assets/f2b1a0bd-a294-44ae-be59-301c0cb7978c" width="30%" />
 
-* Vista del punto más cercano
-<img width="717" height="1600" alt="image" src="https://github.com/user-attachments/assets/382b791c-6d29-4a83-a103-650da0af3e84" />
+* Vista del punto más cercano  
+<img src="https://github.com/user-attachments/assets/382b791c-6d29-4a83-a103-650da0af3e84" width="30%" />
 
-* Vista de lista de todos los puntos de venta
-<img width="717" height="1600" alt="image" src="https://github.com/user-attachments/assets/4413646b-0a0c-4c90-946e-5c61d5a0f7d9" />
+* Vista de lista de todos los puntos de venta  
+<img src="https://github.com/user-attachments/assets/4413646b-0a0c-4c90-946e-5c61d5a0f7d9" width="30%" />
 
 ---
 ````
