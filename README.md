@@ -1,45 +1,84 @@
-Chimbote Computer Map - Guía de Instalación
-Esta aplicación móvil para Android muestra en un mapa todos los establecimientos donde se venden equipos de cómputo en Chimbote, Perú.
+Aquí tienes la información convertida al formato de un archivo Markdown (`.md`), ideal para usar como documentación en GitHub o en otro sistema de control de versiones:
 
-📋 Características
-🗺️ Mapa interactivo con Google Maps
-📍 Detección de ubicación del usuario
-🏪 Lista de 6 centros comerciales principales
-📱 Diseño Material Design con ConstraintLayout
-🔍 Recomendaciones de tiendas cercanas
-📊 Bottom Sheet con información detallada
-🚀 Configuración del Proyecto
-1. Crear el Proyecto en Android Studio
-Abre Android Studio
-Crea un nuevo proyecto:
-Template: Empty Activity
-Name: Chimbote Computer Map
-Package: com.example.chimbotecomputermap
-Language: Kotlin
-Minimum SDK: API 24
-2. Obtener API Key de Google Maps
-Ve a Google Cloud Console
-Crea un nuevo proyecto o selecciona uno existente
-Habilita las siguientes APIs:
-Maps SDK for Android
-Places API (opcional)
-Geocoding API (opcional)
-Crea credenciales (API Key)
-Restringe la API Key a tu aplicación Android
-3. Configurar el Proyecto
-3.1 Actualizar build.gradle (Project level)
-kotlin
+````markdown
+# Chimbote Computer Map - Guía de Instalación
+
+**Chimbote Computer Map** es una aplicación móvil para Android que muestra en un mapa todos los establecimientos donde se venden equipos de cómputo en Chimbote, Perú.
+
+---
+
+## 📋 Características
+
+- 🗺️ Mapa interactivo con Google Maps  
+- 📍 Detección de ubicación del usuario  
+- 🏪 Lista de 6 centros comerciales principales  
+- 📱 Diseño Material Design con ConstraintLayout  
+- 🔍 Recomendaciones de tiendas cercanas  
+- 📊 Bottom Sheet con información detallada  
+
+---
+
+## 📱 Vistas de la aplicación
+
+* Vista del mapa de Chimbote
+<img width="717" height="1600" alt="image" src="https://github.com/user-attachments/assets/ddd9d31c-ff93-447f-9c05-373c7656b1c1" />
+
+* Vista de alerta de los puntos más cercanos
+<img width="717" height="1600" alt="image" src="https://github.com/user-attachments/assets/f2b1a0bd-a294-44ae-be59-301c0cb7978c" />
+
+* Vista del punto más cercano
+<img width="717" height="1600" alt="image" src="https://github.com/user-attachments/assets/382b791c-6d29-4a83-a103-650da0af3e84" />
+
+* Vista de lista de todos los puntos de venta
+<img width="717" height="1600" alt="image" src="https://github.com/user-attachments/assets/4413646b-0a0c-4c90-946e-5c61d5a0f7d9" />
+
+---
+
+## 🚀 Configuración del Proyecto
+
+### 1. Crear el Proyecto en Android Studio
+
+1. Abre Android Studio  
+2. Crea un nuevo proyecto con los siguientes parámetros:
+   - Template: Empty Activity  
+   - Name: `AppTechPoint`  
+   - Package: `com.example.apptechpoint`  
+   - Language: Kotlin  
+   - Minimum SDK: API 24  
+
+### 2. Obtener API Key de Google Maps
+
+1. Ve a [Google Cloud Console](https://console.cloud.google.com)  
+2. Crea un proyecto o selecciona uno existente  
+3. Habilita las siguientes APIs:
+   - Maps SDK for Android  
+   - Places API (opcional)  
+   - Geocoding API (opcional)  
+4. Crea una API Key y restríngela a tu aplicación Android  
+
+### 3. Configurar el Proyecto
+
+#### 3.1 `build.gradle` (nivel de proyecto)
+
+```kotlin
 plugins {
     id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin' version '2.0.1' apply false
 }
-3.2 Configurar strings.xml
-Reemplaza TU_API_KEY_AQUI en strings.xml con tu API Key real:
+````
 
-xml
+#### 3.2 `strings.xml`
+
+Reemplaza `TU_API_KEY_AQUI` con tu API Key real:
+
+```xml
 <string name="my_api_key">AIzaSyC...</string>
-4. Estructura de Archivos
-Crea los siguientes archivos en tu proyecto:
+```
 
+---
+
+## 📁 Estructura de Archivos
+
+```
 app/src/main/
 ├── java/com/example/chimbotecomputermap/
 │   ├── MainActivity.kt
@@ -60,74 +99,108 @@ app/src/main/
 │       ├── ic_store.xml
 │       └── ic_arrow_forward.xml
 └── AndroidManifest.xml
-🛠️ Instalación
-Paso 1: Copiar los archivos
-Copia todos los archivos proporcionados en los artefactos a sus respectivas carpetas.
+```
 
-Paso 2: Sincronizar el proyecto
-En Android Studio, haz clic en "Sync Now"
-Espera a que se descarguen las dependencias
-Paso 3: Configurar permisos
-Los permisos ya están configurados en el AndroidManifest.xml:
+---
 
-ACCESS_FINE_LOCATION
-ACCESS_COARSE_LOCATION
-INTERNET
-ACCESS_NETWORK_STATE
-Paso 4: Probar en dispositivo
-Conecta un dispositivo Android o usa un emulador
-Ejecuta la aplicación
-Acepta los permisos de ubicación cuando se soliciten
-📍 Ubicaciones Incluidas
-La aplicación incluye estos centros comerciales de Chimbote:
+## 🛠️ Instalación
 
-Galerías Shopping Center (-9.07370, -78.57712)
-Centro Comercial Chimbote (-9.07376, -78.58978)
-Galerías Alfa (-9.07486, -78.59126)
-Chimbote Plaza Center (-9.0741361, -78.5880261)
-MegaPlaza Chimbote (-9.1024389, -78.5576856)
-Tu Centro Comercial Nuevo Chimbote (-9.12798, -78.51976)
-🎨 Características de Diseño
-Material Design 3: Colores y componentes modernos
-ConstraintLayout: Layouts eficientes y responsivos
-Bottom Sheet: Información deslizable desde abajo
-FAB: Botón flotante para ubicación actual
-RecyclerView: Lista eficiente de tiendas
-Cards: Presentación elegante de información
-🔧 Funcionalidades
-Detección de Ubicación
-Solicita permisos automáticamente
-Muestra la ubicación actual en el mapa
-Calcula distancias a las tiendas
-Recomendaciones
-Ordena tiendas por proximidad
-Muestra las 3 más cercanas
-Información detallada de cada establecimiento
-Interactividad
-Toca marcadores para información
-Desliza el bottom sheet para ver lista
-Toca items de la lista para centrar mapa
-🚨 Troubleshooting
-Problemas Comunes
-Mapa no se muestra:
-Verifica que la API Key sea válida
-Asegúrate de habilitar Maps SDK for Android
-Revisa que no haya restricciones en la API Key
-Error de permisos:
-Los permisos se solicitan automáticamente
-Puedes otorgarlos manualmente en Configuración > Aplicaciones
-Ubicación no funciona:
-Verifica que el GPS esté habilitado
-Prueba en un dispositivo físico (mejor que emulador)
-Asegúrate de otorgar permisos de ubicación
-Logs Útiles
-bash
+1. **Copiar archivos**: Añade los archivos proporcionados en sus carpetas correspondientes.
+2. **Sincronizar proyecto**: Haz clic en “Sync Now” en Android Studio.
+3. **Permisos**: Verifica que los siguientes permisos estén en `AndroidManifest.xml`:
+
+   * `ACCESS_FINE_LOCATION`
+   * `ACCESS_COARSE_LOCATION`
+   * `INTERNET`
+   * `ACCESS_NETWORK_STATE`
+4. **Probar la aplicación**:
+
+   * Usa un emulador o dispositivo físico
+   * Otorga los permisos de ubicación cuando se soliciten
+
+---
+
+## 📍 Ubicaciones Incluidas
+
+* **Galerías Shopping Center** (-9.07370, -78.57712)
+* **Centro Comercial Chimbote** (-9.07376, -78.58978)
+* **Galerías Alfa** (-9.07486, -78.59126)
+* **Chimbote Plaza Center** (-9.0741361, -78.5880261)
+* **MegaPlaza Chimbote** (-9.1024389, -78.5576856)
+* **Tu Centro Comercial Nuevo Chimbote** (-9.12798, -78.51976)
+
+---
+
+## 🎨 Características de Diseño
+
+* Material Design 3
+* ConstraintLayout
+* Bottom Sheet
+* FAB (Floating Action Button)
+* RecyclerView
+* Cards
+
+---
+
+## 🔧 Funcionalidades
+
+### Detección de Ubicación
+
+* Solicita permisos automáticamente
+* Muestra ubicación actual en el mapa
+* Calcula distancias a tiendas
+
+### Recomendaciones
+
+* Ordena tiendas por proximidad
+* Muestra las 3 más cercanas
+* Información detallada
+
+### Interactividad
+
+* Tocar marcadores para ver información
+* Deslizar Bottom Sheet
+* Tocar ítems de la lista para centrar el mapa
+
+---
+
+## 🚨 Troubleshooting
+
+### Problemas Comunes
+
+* **Mapa no se muestra**:
+
+  * Verifica que la API Key sea válida
+  * Habilita `Maps SDK for Android`
+  * Verifica restricciones de la API Key
+
+* **Error de permisos**:
+
+  * Se solicitan automáticamente
+  * También puedes otorgarlos manualmente:
+    `Configuración > Aplicaciones`
+
+* **Ubicación no funciona**:
+
+  * Verifica que el GPS esté activado
+  * Usa un dispositivo físico para mejor resultado
+  * Verifica permisos otorgados
+
+### Logs Útiles
+
+```bash
 adb logcat | grep ChimboteComputerMap
-🔄 Personalización
-Agregar más tiendas
-Modifica el JSON en MainActivity.kt en el método loadComputerStores():
+```
 
-kotlin
+---
+
+## 🔄 Personalización
+
+### Agregar más tiendas
+
+Edita el método `loadComputerStores()` en `MainActivity.kt`:
+
+```kotlin
 val storesJson = """
 [
     {
@@ -139,16 +212,23 @@ val storesJson = """
     }
 ]
 """.trimIndent()
-Cambiar colores
-Modifica colors.xml para personalizar la apariencia:
+```
 
-xml
+### Cambiar colores
+
+Edita `colors.xml`:
+
+```xml
 <color name="primary_color">#TU_COLOR_AQUI</color>
-📱 Requisitos del Sistema
-Minimum SDK: Android 7.0 (API 24)
-Target SDK: Android 14 (API 34)
-Kotlin: 1.8+
-Google Play Services: Requerido para Maps
-📄 Licencia
-Este proyecto es de uso educativo y demostrativo. Asegúrate de cumplir con los términos de uso de Google Maps API.
+```
 
+---
+
+## 📱 Requisitos del Sistema
+
+* Minimum SDK: Android 7.0 (API 24)
+* Target SDK: Android 14 (API 34)
+* Kotlin: 1.8+
+* Google Play Services requerido para Maps
+
+---
