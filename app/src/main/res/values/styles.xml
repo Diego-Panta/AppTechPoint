@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema principal de la aplicación -->
+    <style name="Theme.ChimboteComputerMap" parent="Theme.Material3.DayNight">
+        <!-- Colores primarios -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_color_dark</item>
+        <item name="colorOnPrimary">@color/white_text_color</item>
+
+        <!-- Colores secundarios -->
+        <item name="colorSecondary">@color/accent_color</item>
+        <item name="colorSecondaryVariant">@color/accent_color_light</item>
+        <item name="colorOnSecondary">@color/white_text_color</item>
+
+        <!-- Colores de fondo -->
+        <item name="android:colorBackground">@color/background_color</item>
+        <item name="colorSurface">@color/surface_color</item>
+        <item name="colorOnBackground">@color/primary_text_color</item>
+        <item name="colorOnSurface">@color/primary_text_color</item>
+
+        <!-- Colores de error -->
+        <item name="colorError">@color/error_color</item>
+        <item name="colorOnError">@color/white_text_color</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/primary_color_dark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Tema sin ActionBar para la MainActivity -->
+    <style name="Theme.ChimboteComputerMap.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <!-- Estilo para las cards -->
+    <style name="StoreCardStyle" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="rippleColor">@color/primary_color_alpha</item>
+    </style>
+
+    <!-- Estilo para títulos -->
+    <style name="TitleTextStyle" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Estilo para subtítulos -->
+    <style name="SubtitleTextStyle" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/secondary_text_color</item>
+    </style>
+
+    <!-- Estilo para texto de contenido -->
+    <style name="BodyTextStyle" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/primary_text_color</item>
+    </style>
+
+    <!-- Estilo para FAB -->
+    <style name="FabStyle" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/primary_color</item>
+        <item name="tint">@color/white_text_color</item>
+        <item name="elevation">6dp</item>
+    </style>
+
+</resources>

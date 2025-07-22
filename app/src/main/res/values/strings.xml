@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">AppTechPoint</string>
+    <!-- Clave API para Google Maps (debes reemplazar con tu clave real) -->
+    <string name="my_api_key">AIzaSyC_SBmGhvcn8QfPYX530XbUwuHAzYQsRXw</string>
+
+    <!-- Textos de la interfaz -->
+    <string name="my_location">Mi ubicación</string>
+    <string name="computer_stores_title">Tiendas de Equipos de Cómputo</string>
+    <string name="chimbote_subtitle">Centros comerciales en Chimbote</string>
+    <string name="view_on_map">Ver en mapa</string>
+    <string name="store_icon_description">Icono de tienda</string>
+
+    <!-- Mensajes del sistema -->
+    <string name="permission_required">Permiso de ubicación necesario para mostrar tiendas cercanas</string>
+    <string name="location_error">No se pudo obtener la ubicación actual</string>
+    <string name="stores_load_error">Error al cargar las tiendas</string>
+    <string name="nearby_stores_title">Tiendas más cercanas:</string>
+    <string name="distance_km">km</string>
+
+    <!-- Descripciones de contenido para accesibilidad -->
+    <string name="location_fab_description">Encontrar mi ubicación</string>
+    <string name="arrow_description">Ver detalles</string>
+    <string name="bottom_sheet_handle_description">Deslizar para expandir</string>
+
+    <!-- Información de las tiendas -->
+    <string name="galerias_shopping_name">Galerías Shopping Center</string>
+    <string name="galerias_shopping_desc">Centro comercial con múltiples tiendas de tecnología y equipos de cómputo</string>
+
+    <string name="cc_chimbote_name">Centro Comercial Chimbote</string>
+    <string name="cc_chimbote_desc">Centro comercial tradicional con tiendas de equipos informáticos</string>
+
+    <string name="galerias_alfa_name">Galerías Alfa</string>
+    <string name="galerias_alfa_desc">Galería comercial con tiendas especializadas en tecnología</string>
+
+    <string name="plaza_center_name">Chimbote Plaza Center</string>
+    <string name="plaza_center_desc">Plaza comercial con variedad de tiendas tecnológicas</string>
+
+    <string name="megaplaza_name">MegaPlaza Chimbote</string>
+    <string name="megaplaza_desc">Centro comercial moderno con grandes tiendas de tecnología</string>
+
+    <string name="tu_centro_name">Tu Centro Comercial Nuevo Chimbote</string>
+    <string name="tu_centro_desc">Centro comercial en Nuevo Chimbote con tiendas de equipos de cómputo</string>
+
+</resources>

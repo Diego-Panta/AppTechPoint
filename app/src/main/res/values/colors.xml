@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores primarios -->
+    <color name="primary_color">#1976D2</color>
+    <color name="primary_color_dark">#1565C0</color>
+    <color name="primary_color_light">#BBDEFB</color>
+    <color name="primary_color_alpha">#331976D2</color>
+
+    <!-- Colores de acento -->
+    <color name="accent_color">#FF5722</color>
+    <color name="accent_color_light">#FFAB91</color>
+
+    <!-- Colores de texto -->
+    <color name="primary_text_color">#212121</color>
+    <color name="secondary_text_color">#757575</color>
+    <color name="white_text_color">#FFFFFF</color>
+
+    <!-- Colores de fondo -->
+    <color name="background_color">#FAFAFA</color>
+    <color name="surface_color">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Colores del sistema -->
+    <color name="divider_color">#BDBDBD</color>
+    <color name="error_color">#F44336</color>
+    <color name="success_color">#4CAF50</color>
+
+    <!-- Colores específicos de la app -->
+    <color name="bottom_sheet_background">#FFFFFF</color>
+    <color name="handle_color">#E0E0E0</color>
+</resources>
