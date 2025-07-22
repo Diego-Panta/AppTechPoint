@@ -4,7 +4,7 @@ Aquí tienes la información convertida al formato de un archivo Markdown (`.md`
 # Chimbote Computer Map - Guía de Instalación
 
 **Chimbote Computer Map** es una aplicación móvil para Android que muestra en un mapa todos los establecimientos donde se venden equipos de cómputo en Chimbote, Perú.
-
+````
 ---
 
 ## 📋 Características
@@ -17,7 +17,7 @@ Aquí tienes la información convertida al formato de un archivo Markdown (`.md`
 - 📊 Bottom Sheet con información detallada  
 
 ---
-
+````
 ## 📱 Vistas de la aplicación
 
 * Vista del mapa de Chimbote
